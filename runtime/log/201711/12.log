@@ -1,0 +1,1134 @@
+---------------------------------------------------------------
+[ 2017-11-12T17:52:22+08:00 ] 127.0.0.1 127.0.0.1 GET /new/1
+[ error ] [4]语法错误: unexpected 'New' (T_NEW), expecting identifier (T_STRING)
+---------------------------------------------------------------
+[ 2017-11-12T17:52:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ error ] [4]语法错误: unexpected 'New' (T_NEW), expecting identifier (T_STRING)
+---------------------------------------------------------------
+[ 2017-11-12T17:53:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：1,746.13kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => 'f6aa13a6-965c-a211-6b74-a452aec0ed08',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'New' (T_NEW), expecting identifier (T_STRING)[D:\xampp\htdocs\tp5\application\index\controller\News.php:5]
+---------------------------------------------------------------
+[ 2017-11-12T17:53:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：1,743.27kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '82d69e82-882c-4c91-6507-e7ac635cdad0',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controler\Controller' not found[D:\xampp\htdocs\tp5\application\index\controller\News.php:6]
+---------------------------------------------------------------
+[ 2017-11-12T17:54:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：1,743.25kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => 'b03631b7-6425-4fb1-4a5f-42fc5576f740',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Controller' not found[D:\xampp\htdocs\tp5\application\index\controller\News.php:6]
+---------------------------------------------------------------
+[ 2017-11-12T17:54:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,724.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '0e0ff9d0-21ea-dac7-a3ce-d387d0e78d74',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\xampp\htdocs\tp5\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-11-12T17:54:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：1,701.44kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '885af401-1e45-062a-4d66-baddd69ce83a',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T17:54:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,701.44kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '3fc21fff-0d24-8ace-99a4-6bace4732107',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T17:54:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：1,738.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '6210318f-cd16-31f1-333f-1d21e44bd4e0',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[D:\xampp\htdocs\tp5\application\index\controller\News.php:9]
+---------------------------------------------------------------
+[ 2017-11-12T17:55:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：1,701.61kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '278acce9-9268-dbb5-10a6-ebda36a38606',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T17:55:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,701.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '458ee1e1-2505-bf33-328a-2933f3ea2535',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T17:55:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/new/1
+[ info ] www.xkidc.net/index.php/new/1 [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：1,701.35kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'username' => 'aaa',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '51cb919a-ba20-d124-34e6-e77122700c9a',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T17:56:26+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/new
+[ info ] www.xkidc.net/index.php/new [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：1,727.97kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'username' => 'aaa',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'postman-token' => '8c4f5346-eb39-7443-afc4-1ab54ba609a4',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPESckMjJU6kAQnBb',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:00:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.xkidc.net/ [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,698.33kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:01:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/new
+[ info ] www.xkidc.net/index.php/new [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：1,727.97kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'username' => 'aaa',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'postman-token' => '0ce434c7-d177-9314-bb16-4b26734f1b6b',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymF9PtOtQ0ajx48DT',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:01:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/new
+[ info ] www.xkidc.net/index.php/new [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：1,727.97kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'username' => 'aaa',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'postman-token' => '11284807-4f88-efe3-a825-bcde32983ffa',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqsnRuHpNnEN0mcy5',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:01:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/new
+[ info ] www.xkidc.net/index.php/new [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：1,700.94kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'username' => 'aaa',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'postman-token' => 'b4cf5d90-f624-9427-f728-ec56c303c1a5',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvJ7PROMuYM3XoLmB',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:30:03+08:00 ] 127.0.0.1 127.0.0.1 GET /new
+[ info ] www.xkidc.net/new [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：1,618.85kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:30:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/new
+[ info ] www.xkidc.net/index.php/new [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：1,618.58kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:30:25+08:00 ] 127.0.0.1 127.0.0.1 GET /news
+[ info ] www.xkidc.net/news [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：1,618.63kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'news',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:30:29+08:00 ] 127.0.0.1 127.0.0.1 GET /new
+[ info ] www.xkidc.net/new [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：1,618.48kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:30:47+08:00 ] 127.0.0.1 127.0.0.1 GET /new
+[ info ] www.xkidc.net/new [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：1,618.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '1e03e229-b9dd-f1ac-a16b-fb6abf5fc269',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:35:11+08:00 ] 127.0.0.1 127.0.0.1 POST /new
+[ info ] www.xkidc.net/new [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,577.83kb] [文件加载：38]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'username' => 'aaa',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'postman-token' => 'b1bbcb70-692a-6022-3c8c-ab39c38638f6',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPiChBhhHTYlsCtRd',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:35:13+08:00 ] 127.0.0.1 127.0.0.1 GET /new
+[ info ] www.xkidc.net/new [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,576.55kb] [文件加载：38]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '49fe7fa9-146c-d918-3c69-4731cee6ea4e',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:35:16+08:00 ] 127.0.0.1 127.0.0.1 GET /new
+[ info ] www.xkidc.net/new [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：1,576.77kb] [文件加载：38]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:36:42+08:00 ] 127.0.0.1 127.0.0.1 GET /new
+[ info ] www.xkidc.net/new [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：1,620.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /new/123/345
+[ info ] www.xkidc.net/new/123/345 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,578.34kb] [文件加载：38]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+  'name' => '345',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:37:35+08:00 ] 127.0.0.1 127.0.0.1 GET /new/id/123/name/345
+[ info ] www.xkidc.net/new/id/123/name/345 [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：1,578.39kb] [文件加载：38]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'id',
+  'name' => '345',
+)
+[ info ] [ RUN ] app\index\controller\News->read[ D:\xampp\htdocs\tp5\application\index\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:55:51+08:00 ] 127.0.0.1 127.0.0.1 GET /new/1
+[ info ] www.xkidc.net/new/1 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：1,727.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '01a9283f-de9f-d8bf-7b8d-b87744eac4a3',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:56:16+08:00 ] 127.0.0.1 127.0.0.1 GET /new/id/123/name/345
+[ info ] www.xkidc.net/new/id/123/name/345 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,728.63kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => 'id',
+    2 => '123',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '345',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:56:20+08:00 ] 127.0.0.1 127.0.0.1 GET /new/id/1
+[ info ] www.xkidc.net/new/id/1 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：1,727.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => 'id',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:57:15+08:00 ] 127.0.0.1 127.0.0.1 GET /new/1
+[ info ] www.xkidc.net/new/1 [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：1,727.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '232fe4e2-e894-2ba4-f9a3-53965c5ffc9d',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:57:27+08:00 ] 127.0.0.1 127.0.0.1 GET /new/1
+[ info ] www.xkidc.net/new/1 [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：1,727.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '68fcdceb-07e4-f435-f75d-b343356b60ed',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:58:32+08:00 ] 127.0.0.1 127.0.0.1 GET /new/1
+[ info ] www.xkidc.net/new/1 [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：1,727.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => 'f9a652f6-5fdf-9735-af05-fb37a06103b0',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-12T18:58:39+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] www.xkidc.net/banner/1 [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：1,744.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Banner',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '6d149a18-53bb-e163-bd26-2647a18731e0',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class app\index\controller\Banner because the name is already in use[D:\xampp\htdocs\tp5\application\index\controller\Banner.php:7]
+---------------------------------------------------------------
+[ 2017-11-12T18:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] www.xkidc.net/banner/1 [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：1,744.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Banner',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '4a1109fb-4abd-304b-3d0b-9aa2c9dd0c17',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class app\index\controller\Banner because the name is already in use[D:\xampp\htdocs\tp5\application\index\controller\Banner.php:7]
+---------------------------------------------------------------
+[ 2017-11-12T19:00:42+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] www.xkidc.net/banner/1 [运行时间：0.126000s][吞吐率：7.94req/s] [内存消耗：2,889.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Banner',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '64292bd7-1014-800c-1583-f1eec6dd1fe9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Banner->read[ D:\xampp\htdocs\tp5\application\index\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: name[D:\xampp\htdocs\tp5\application\index\controller\Banner.php:15]
+---------------------------------------------------------------
+[ 2017-11-12T19:00:51+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] www.xkidc.net/banner/1 [运行时间：0.093000s][吞吐率：10.75req/s] [内存消耗：2,850.65kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Banner',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xkidc.net',
+  'connection' => 'keep-alive',
+  'username' => 'aaa',
+  'cache-control' => 'no-cache',
+  'password' => '123',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'postman-token' => '2bf72718-32bd-dbd2-4074-f08a7da37895',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Banner->read[ D:\xampp\htdocs\tp5\application\index\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-12T19:01:02+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-12T19:04:53+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:20:09+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:20:18+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:21:16+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:22:56+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:23:03+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:23:08+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:23:17+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]

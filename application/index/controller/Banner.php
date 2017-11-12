@@ -2,34 +2,29 @@
 
 namespace app\index\controller;
 use app\index\model\Banner as banners;
-use think\Validate;
+use  app\index\validate\Test;
+use think\Loader;
 
 class Banner
 {
         public function getBanner($id)
         {
-
                 $data=[
                  'name'=>'piaomiaohan',
-                 'email'=>'123@qq.com'
+                 'email'=>'123qq.com'
                 ];
-                $validate=new Validate([
-                   'name'=>'require|max:20',
-                   'email'=>'email'
-                ]);
+                $validate=Loader::validate('Test');
                 $result=$validate->batch()->check($data);
+                var_dump($result);
                 var_dump($validate->getError());
-        $data=banners::get($id);
-        $code=12345;
-        $message='success';
-        $content=[
-         'code'=>$code,
-         'message'=>$message,
-         'data'=>$data
-        ];
-
-
-
+                $data=banners::get($id);
+                $code=12345;
+                $message='success';
+                $content=[
+                 'code'=>$code,
+                 'message'=>$message,
+                 'data'=>$data
+                ];
                 return  json_encode($content);
         }
 }
